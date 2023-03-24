@@ -1,0 +1,95 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #ff9133ff;
+    background-image: url(img/background.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+h1 {
+    color: #FF512F;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+}
+
+h2 {
+    color: #232323;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+section {
+    align-content: center;
+    align-items: center;
+    border-radius: 1%;
+    box-shadow: 0 3px 10px 3px rgba(0, 0, 0, 0.3);
+    margin: 5em;
+    padding: 5em;
+    width: 30%;
+    background-color: #ffdaa3ff;
+}
+
+input {
+    padding:8px;
+    display:relative;
+    width:100%;
+    padding-top:16px;
+    padding-bottom:16px;
+    border:1px solid #ccc;
+    margin-top: 2px;
+    background-color: white;
+}
+
+.result {
+    padding:8px;
+    display:relative;
+    width:100%;
+    padding-top:16px;
+    padding-bottom:16px;
+    border:1px solid #ccc;
+    margin-top: 2px;
+    height: 50px;
+}
+
+.btn {
+    border:none;
+    margin: 1em;
+    padding: 8px 16px;
+    align-content: center;
+    background-color: #FF512F;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    color:#000;
+    background-color:#F09819;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    margin-right: 10px;
+}
+
+footer {
+    font-size: 10;
+    font-weight: 600;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
